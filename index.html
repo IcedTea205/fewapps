@@ -7,10 +7,14 @@
     <title>All stuff that made my brain go confused in the past</title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 
+<div class="container">
 
 <section id="app">
     <h1>Apps</h1>
@@ -20,16 +24,39 @@
     <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/B7nWI6WDk_4YwCW_N2VjPM3QR3Z1qhk4lp4ccvgTEYA/embed"></iframe>
 </section>
 
-<section id="games">
-<h1>Games</h1>
-<div class="line"></div>
-<a href="https://studio.code.org/projects/gamelab/-2BuSGAMMEWss546YMA2DZessS_x3ecSHzvCbNmgW6M" target="_blank">
-<img src="Game1.png"></a>
-<br>
-<a href="https://studio.code.org/projects/gamelab/QTjSDIG0mpOP-pcbOAXz9tw-TplcgRYu-Iqfukw6A_s" target="_blank">
-    <img src="Game2.png">
-</a>
-</section>
+<h2>Click On The Games To Explore</h2>
+
+<h5>These Games Are Built On Game Lab, Click On The Game To Play</h5>
+
+<div id="myCarousel" class="carousel slide">
+    <center>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <a href="https://studio.code.org/projects/gamelab/-2BuSGAMMEWss546YMA2DZessS_x3ecSHzvCbNmgW6M" target="_blank">
+                    <img src="Game1.png">
+                </a>
+                <p>Car Racing</p>
+            </div>
+
+            <div class="item">
+                <a href="https://studio.code.org/projects/gamelab/QTjSDIG0mpOP-pcbOAXz9tw-TplcgRYu-Iqfukw6A_s" target="_blank">
+                    <img src="Game2.png">
+                </a>
+                <p>Be In Space</p>
+            </div>
+
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </center>
+</div>
 
 <section id="chatbots">
 <h1>Chat Bot</h1>
@@ -43,7 +70,7 @@
 </section>
 
 
-
+</div>
 </body>
 
 </html>
